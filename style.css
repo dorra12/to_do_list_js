@@ -1,0 +1,82 @@
+h1,
+label,
+form {
+    text-align: center;
+}
+
+.none {
+    display: none;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+li {
+    list-style: none;
+}
+
+header,
+main {
+    background: #fcecfc;
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #fcecfc), color-stop(17%, #fcecfc), color-stop(45%, #fba6e1), color-stop(65%, #f7a8de), color-stop(90%, #f0d6e9), color-stop(100%, #f0d6e9));
+    background: linear-gradient(135deg, #fcecfc 0%, #fcecfc 17%, #fba6e1 45%, #f7a8de 65%, #f0d6e9 90%, #f0d6e9 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#f0d6e9', GradientType=1);
+    background-repeat: no-repeat;
+}
+
+header {
+    border-radius: 5px 5px 45% 45%;
+    margin: auto;
+    padding: 1rem 1rem;
+    width: 250px;
+}
+
+.moon {
+    background-color: white;
+    border-radius: 0 0 50% 50%;
+    margin: auto;
+    padding: 1rem;
+}
+
+main {
+    width: 250px;
+    margin: auto;
+    border-radius: 5px 5px 5% 5%;
+}
+
+label {
+    font-size: 1.5rem;
+    display: block;
+    margin-top: 2rem;
+}
+
+label+input {
+    border-radius: 5px;
+    display: block;
+    margin: 0.5rem auto;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+input[type="submit"] {
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.2rem 2rem;
+    margin-bottom: 2rem;
+}
+
+form {
+    border-radius: 5px 5px 45% 45%;
+}
+
+ul {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+ul li {
+    border-bottom: 1px solid lightpink;
+    margin: 0.5rem;
+}
